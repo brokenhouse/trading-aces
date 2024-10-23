@@ -74,10 +74,19 @@ button {
     height: 45px;
     border-radius: 25px;
     border: none;
-    background-color: #a6d189;
     color: #303446;
     font-weight: 600;
     box-shadow: 2px 2px #232634;
+}
+
+button#free-packet-button{
+    background-color: #a6d189;
+    display: none;
+}
+
+button#go-to-collection-button{
+    background-color: #8caaee;
+    display: none;
 }
 
 button:active {

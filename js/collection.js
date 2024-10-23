@@ -1,5 +1,3 @@
-import 'https://tomashubelbauer.github.io/github-pages-local-storage/index.js';
-
 const size = 24;
 let game_status = JSON.parse(localStorage.getItem("game_status"));
 
