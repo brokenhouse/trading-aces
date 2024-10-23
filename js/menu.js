@@ -10,5 +10,5 @@ if(!game_status){
 console.log(button);
 button.style.display = "block";
 button.addEventListener("click", ()=>{
-    window.location.replace("/collection.html");
+    window.location.replace("/trading-aces/collection.html");
 })

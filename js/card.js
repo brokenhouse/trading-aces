@@ -114,5 +114,5 @@ if(card_id){
     console.log("trovato");
     game_status[card_id.id] = true;
     localStorage.setItem("game_status", JSON.stringify(game_status));
-    window.location.replace("/collection.html");
+    window.location.replace("/trading-aces/collection.html");
 }
